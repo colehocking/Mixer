@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Music Info</string>
+    <string name="getSong">Get Song</string>
+    <string name="songInfo">BPM</string>
+    <string name="tap_again">Listening...</string>
+    <string name="action_settings">Settings</string>
+    <string name="tap_tempo">Tap Tempo</string>
+    <string name="tap">TAP</string>
+    <string name="gotIt">Got It!</string>
+    <string name="googleSong">Get Song Info</string>
+    <string name="notes">Notes</string>
+
+
+</resources>

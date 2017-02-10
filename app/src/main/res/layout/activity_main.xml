@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat"/>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="268dp">
+
+        <com.example.colehocking.mixer.visualizer.VisualizerViewAlt
+            android:id="@+id/vizView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+        </com.example.colehocking.mixer.visualizer.VisualizerViewAlt>
+
+
+    </FrameLayout>
+
+    <TextView
+        android:text="@string/songInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginBottom="28dp"
+        android:textSize="50sp"
+        android:id="@+id/songInfo" />
+
+    <TextView
+        android:text="@string/notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:textSize="50sp"
+        android:id="@+id/getNote" />
+
+    <Button
+        android:id="@+id/plyButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal|center"
+        android:background="@drawable/ply_button" />
+
+</LinearLayout>

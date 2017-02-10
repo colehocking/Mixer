@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat"/>
+
+
+    <Button
+        android:id="@+id/tapButton"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal|center"
+        android:background="@drawable/roundbtn"
+        android:text="@string/tap"
+        android:textSize="90sp" />
+
+    <TextView
+        android:text="@string/songInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bpmTextView"
+        android:layout_marginBottom="28dp"
+        android:layout_gravity="center_horizontal|center"
+        android:textSize="50sp"/>
+
+    <Button
+        android:text="@string/gotIt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:id="@+id/gotIt" />
+
+</LinearLayout>

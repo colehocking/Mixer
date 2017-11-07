@@ -1,5 +1,5 @@
 # Mixer
-##Overview
+## Overview
 This application uses the microphone on an android device to gather musical information and relay them to the user. When a song is played,
 it will display the tempo/BPM, the notes being played, and a graphical display, which also responds to the music. The settings Menu allows
 the user three unique interfaces:
@@ -7,7 +7,7 @@ the user three unique interfaces:
 2) A settings menu which allows the user to customize listening parameters.
 3) A tap tempo interface that also identifies tempo, but using the user input from tapping the screen.
 
-###Walkthrough
+### Walkthrough
 
 When the app is opened, it will immediately begin listening for sound. It will calculate the tempo of the audio input and the 
 notes that are being played, in real time, and display them to the user. The app is not listening exclusively for musical tracks
